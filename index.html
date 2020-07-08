@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Video test</title>
+		<link rel="stylesheet" href="stylevideo.css">
+	</head>
+	<body>
+		<div id="video_controls">
+			<span id="play">
+				<img src="play-ico.png">
+			</span>
+			<span id="pause"></span>
+		</div>
+		<div class="container-video">
+			<video id="firsVideo">
+				<source src="videos/1-welcome1.mp4" type="video/mp4">
+				Your browser does not support HTML5 video.
+			</video>
+			<video id="secondVideo">
+				<source src="videos/2-resumen.mp4" type="video/mp4">
+				Your browser does not support HTML5 video.
+			</video>
+			<video id="thirdVideo">
+				<source src="videos/4-llamada.mp4" type="video/mp4">
+				Your browser does not support HTML5 video.
+			</video>
+			<img id="call-splash" src="img/call-desktop-1.jpg" alt="Splash Calls">
+			<audio id="song-call" class="my_audio" controls preload="none" loop="loop">
+			    <source src="ringtone/call.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

@@ -74,3 +74,15 @@ p#timevideoget {
     font-weight: 600;
     font-family: sans-serif;
 }
+@media only screen and (max-width: 720px) {
+    .container-video > video {
+        width: 100% !important;
+        height: 100% !important;
+        margin-top: 23% !important;
+        object-fit: cover !important;
+    }
+    .namebox {
+        left: 20%;
+        top: 50%;
+    }
+}
